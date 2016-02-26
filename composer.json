@@ -9,8 +9,6 @@
         }
     ],
     "autoload": {
-        "lib": {
             "files": ["class/BCGFontFile.php","class/BCGDrawing.php","class/BCGcode128.barcode.php"]
-        }
     }
 }
