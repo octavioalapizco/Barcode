@@ -9,11 +9,8 @@
         }
     ],
     "autoload": {
-	"psr-4": {
-    		"BCGFontFile\\" : "class/",
-		"BCGDrawing\\" : "class/",
-		"BCGcode128\\" : "class/",
- 		"BCGColor\\"  : "class/"
-	}
+	"psr-0": {
+            "": ["class/"]
+        }	
     }
 }
