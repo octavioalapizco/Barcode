@@ -10,7 +10,12 @@
     ],
     "autoload": {
         "lib": {
-            "files": ["class/BCGFontFile.php","class/BCGDrawing.php","class/BCGcode128.barcode.php"]
+            "files": ["class/BBCGFontFileCGFontFile.php","class/BCGDrawing.php","class/BCGcode128.barcode.php"]
         }
+	"psr-4": {
+    		"BCGFontFile\\" : "class/",
+		"BCGDrawing\\" : "class/",
+		"BCGcode128\\" : "class/"
+	}
     }
 }
